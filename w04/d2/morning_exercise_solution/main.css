@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+  transition: background 2s;
+}
+
+.box {
+  width: 300px;
+  height: 200px;
+  margin: 50vh auto;
+  transform: translateY(-100px);
+  text-align: center;
+}
+
+
