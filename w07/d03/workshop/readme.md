@@ -8,7 +8,7 @@ By the end of this exercise the student will be able to:
 * write comments explaining codes functionality
 * identify and debug errors for specific functions
 ### Introduction
-Kimmy, the principal of the local high school, is an avid ruby developer. She loves using ruby to automate parts of her job. She recently wrote a program to keep track of student grades across classrooms and has been testing it on the first years. Since she’s still a beginner she needs some help debugging where her program might have gone wrong.
+Kimmy, the principal of the local high school, is an avid ruby developer. She loves using ruby to automate parts of her job. She recently wrote a program to keep track of student grades across classrooms and has been testing it on the first years. Since she’s still a beginner she needs some help debugging where her program might have gone wrong.  
 
 Initially it was used to just store records. However things started to go awry as she added functionality. The two features she worked on were:
 * A function to display a report of which students passed or failed (scored 200 or less in total across all four subjects).

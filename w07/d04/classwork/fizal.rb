@@ -1,7 +1,13 @@
 require 'sinatra'
+require 'geocoder'
+require 'forecast_io'
 
-get '/random' do
-  ## when someone asks for localhost:3000/random
+lat_lon= geocoder.search("nyc").first.coordinates
+
+
+
+get '/weather' do
+  ## when someone asks for localhost:3000/weather
   erb :index
 end
 

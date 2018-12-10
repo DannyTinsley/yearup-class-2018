@@ -46,21 +46,32 @@ end
 ############################################################
 # CHALLENGE 1
 
-# def findFailing(classroom)
-#   classroom.students.each { |key,value|
-#     total = 0
-#     value.reportard.grades.each do |key, value|
-#       total = total + value.grade
-#     end
-#     if total > 200:
-#       puts "PASS"
-#   }
-# end
+
+#okay so i really dont know what is going on here but I *think* its saying to find each student by classrooom, then... check the value of each of their grades? If their total grades are above 200 then puts that they passed... 
+
+def findFailing(classroom)
+  classroom.students.each { |key,value|
+    total = 0
+    value.reportard.grades.each do |key, value|
+      total = total + value.grade
+    end
+    if total > 200:
+      puts "PASS"
+  }
+end
+
+
+
+
+
 
 # findFailing @A
 
 ############################################################
 # CHALLENGE 2
+
+
+
 # def findExceptional(classroom)
 #   classroom.students.each { |key,value|
 #       total = 0
@@ -69,7 +80,7 @@ end
 #       end
 #       if total > 260:
 #         puts student.name
-
+ 
 #     }
 # end
 
